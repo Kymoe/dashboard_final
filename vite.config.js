@@ -5,7 +5,7 @@ export default
         rollupOptions:{
             input:{
                 main:'./index.html',
-                products:'./src/product.html',
+                product:'./src/product.html',
 
             },
         },
