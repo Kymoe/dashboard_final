@@ -2,12 +2,12 @@ import Chart from "chart.js/auto";
 
 (async function () {
   const data = [
-    { product: "Polo Shirt", amount: 20000 },
-    { product: "Shoes", amount: 10000 },
-    { product: "Jean", amount: 7000 },
-    { product: "Shoes", amount: 5000 },
-    { product: "polo Shirt", amount: 2000 },
-    { product: "Jean", amount: 9000 },
+    { product: "Polo Shirt", amount: 220000 },
+    { product: "Shoes", amount: 56000 },
+    { product: "Jean", amount: 75000 },
+    { product: "Shoes", amount: 59000 },
+    { product: "polo Shirt", amount: 163000 },
+    { product: "Jean", amount: 91000},
   ];
 
   new Chart(document.querySelector("#product-chart"), {
